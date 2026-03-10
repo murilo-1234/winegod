@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: winegod
+      POSTGRES_USER: winegod
+      POSTGRES_PASSWORD: winegod_dev
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  app:
+    build: .
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://winegod:winegod_dev@db:5432/winegod
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+
+volumes:
+  pgdata:

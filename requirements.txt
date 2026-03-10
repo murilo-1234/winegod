@@ -1,0 +1,24 @@
+# Core
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+
+# HTTP
+requests==2.31.0
+curl_cffi==0.7.1
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# Scraping (opcional — só instalar se precisar de Playwright)
+# playwright==1.41.0
+# playwright-stealth==1.0.6
+
+# AI APIs
+anthropic==0.39.0
+google-generativeai==0.8.3
+openai==1.55.0
+
+# Scheduling
+apscheduler==3.10.4
+
+# Utils
+tqdm==4.66.1

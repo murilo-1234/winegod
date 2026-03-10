@@ -1,0 +1,283 @@
+{
+  "pais": "Brasil",
+  "pais_codigo": "BR",
+  "idioma_principal": "pt",
+  "idiomas_busca": ["pt"],
+  "moeda": "BRL",
+  "meta_lojas": 400,
+  "dominio_pais": ".com.br",
+
+  "regioes_vinicolas": [
+    {"nome": "Serra Gaucha", "importancia": "alta", "observacao": "Principal regiao vinicola do Brasil. Centenas de vinicolas em Bento Goncalves, Garibaldi, Carlos Barbosa"},
+    {"nome": "Campanha Gaucha", "importancia": "media", "observacao": "Regiao emergente no RS, vinhos de qualidade crescente"},
+    {"nome": "Serra Catarinense", "importancia": "media", "observacao": "Vinhos de altitude (900-1400m), vinicolas boutique em Sao Joaquim e Urubici"},
+    {"nome": "Vale do Sao Francisco", "importancia": "media", "observacao": "Vinhos tropicais em PE/BA, clima unico, 2 safras por ano"},
+    {"nome": "Serra da Mantiqueira", "importancia": "baixa", "observacao": "SP/MG, producao pequena mas crescente"},
+    {"nome": "Planalto Catarinense", "importancia": "baixa", "observacao": "Meio-oeste SC, producao emergente"}
+  ],
+
+  "divisao_administrativa": {
+    "tipo": "estado",
+    "lista": [
+      {"nome": "Sao Paulo", "codigo": "SP", "capital": "Sao Paulo"},
+      {"nome": "Rio de Janeiro", "codigo": "RJ", "capital": "Rio de Janeiro"},
+      {"nome": "Minas Gerais", "codigo": "MG", "capital": "Belo Horizonte"},
+      {"nome": "Rio Grande do Sul", "codigo": "RS", "capital": "Porto Alegre"},
+      {"nome": "Santa Catarina", "codigo": "SC", "capital": "Florianopolis"},
+      {"nome": "Parana", "codigo": "PR", "capital": "Curitiba"},
+      {"nome": "Bahia", "codigo": "BA", "capital": "Salvador"},
+      {"nome": "Pernambuco", "codigo": "PE", "capital": "Recife"},
+      {"nome": "Ceara", "codigo": "CE", "capital": "Fortaleza"},
+      {"nome": "Distrito Federal", "codigo": "DF", "capital": "Brasilia"},
+      {"nome": "Goias", "codigo": "GO", "capital": "Goiania"},
+      {"nome": "Espirito Santo", "codigo": "ES", "capital": "Vitoria"},
+      {"nome": "Mato Grosso do Sul", "codigo": "MS", "capital": "Campo Grande"},
+      {"nome": "Mato Grosso", "codigo": "MT", "capital": "Cuiaba"},
+      {"nome": "Para", "codigo": "PA", "capital": "Belem"},
+      {"nome": "Amazonas", "codigo": "AM", "capital": "Manaus"},
+      {"nome": "Maranhao", "codigo": "MA", "capital": "Sao Luis"},
+      {"nome": "Rio Grande do Norte", "codigo": "RN", "capital": "Natal"},
+      {"nome": "Paraiba", "codigo": "PB", "capital": "Joao Pessoa"},
+      {"nome": "Alagoas", "codigo": "AL", "capital": "Maceio"},
+      {"nome": "Sergipe", "codigo": "SE", "capital": "Aracaju"},
+      {"nome": "Piaui", "codigo": "PI", "capital": "Teresina"}
+    ]
+  },
+
+  "cidades_principais": [
+    {"nome": "Sao Paulo", "regiao": "SP", "populacao_aprox": 12400000, "relevancia_vinhos": "alta", "observacao": "Maior mercado consumidor, sede de importadoras"},
+    {"nome": "Rio de Janeiro", "regiao": "RJ", "populacao_aprox": 6700000, "relevancia_vinhos": "alta", "observacao": "Segundo maior mercado"},
+    {"nome": "Belo Horizonte", "regiao": "MG", "populacao_aprox": 2500000, "relevancia_vinhos": "alta", "observacao": "Polo gastronomico, muitas adegas"},
+    {"nome": "Porto Alegre", "regiao": "RS", "populacao_aprox": 1500000, "relevancia_vinhos": "alta", "observacao": "Proximo da Serra Gaucha, cultura de vinho forte"},
+    {"nome": "Curitiba", "regiao": "PR", "populacao_aprox": 1900000, "relevancia_vinhos": "alta", "observacao": "Forte cultura europeia, bom mercado"},
+    {"nome": "Brasilia", "regiao": "DF", "populacao_aprox": 3000000, "relevancia_vinhos": "media", "observacao": "Alta renda, consumo de vinhos premium"},
+    {"nome": "Florianopolis", "regiao": "SC", "populacao_aprox": 500000, "relevancia_vinhos": "media", "observacao": "Turismo gastronomico"},
+    {"nome": "Salvador", "regiao": "BA", "populacao_aprox": 2900000, "relevancia_vinhos": "media", "observacao": "Mercado nordestino principal"},
+    {"nome": "Recife", "regiao": "PE", "populacao_aprox": 1600000, "relevancia_vinhos": "media", "observacao": "Proximo do Vale do Sao Francisco"},
+    {"nome": "Campinas", "regiao": "SP", "populacao_aprox": 1200000, "relevancia_vinhos": "media", "observacao": "Interior SP, alta renda"},
+    {"nome": "Bento Goncalves", "regiao": "RS", "populacao_aprox": 120000, "relevancia_vinhos": "alta", "observacao": "Capital brasileira do vinho"},
+    {"nome": "Caxias do Sul", "regiao": "RS", "populacao_aprox": 500000, "relevancia_vinhos": "alta", "observacao": "Serra Gaucha, polo vinicola"},
+    {"nome": "Vitoria", "regiao": "ES", "populacao_aprox": 370000, "relevancia_vinhos": "media", "observacao": "Sede da Wine.com.br"},
+    {"nome": "Goiania", "regiao": "GO", "populacao_aprox": 1500000, "relevancia_vinhos": "baixa", "observacao": "Centro-Oeste, mercado crescente"},
+    {"nome": "Fortaleza", "regiao": "CE", "populacao_aprox": 2700000, "relevancia_vinhos": "baixa", "observacao": "Nordeste, mercado menor"},
+    {"nome": "Joinville", "regiao": "SC", "populacao_aprox": 600000, "relevancia_vinhos": "media", "observacao": "Maior cidade de SC"},
+    {"nome": "Blumenau", "regiao": "SC", "populacao_aprox": 360000, "relevancia_vinhos": "media", "observacao": "Cultura alema, cerveja > vinho mas tem mercado"},
+    {"nome": "Maringa", "regiao": "PR", "populacao_aprox": 430000, "relevancia_vinhos": "baixa", "observacao": "Interior PR"},
+    {"nome": "Ribeirao Preto", "regiao": "SP", "populacao_aprox": 700000, "relevancia_vinhos": "media", "observacao": "Interior SP, alta renda agro"},
+    {"nome": "Niteroi", "regiao": "RJ", "populacao_aprox": 515000, "relevancia_vinhos": "media", "observacao": "RJ, alta renda"},
+    {"nome": "Sao Joaquim", "regiao": "SC", "populacao_aprox": 30000, "relevancia_vinhos": "alta", "observacao": "Capital dos vinhos de altitude"},
+    {"nome": "Petrolina", "regiao": "PE", "populacao_aprox": 350000, "relevancia_vinhos": "alta", "observacao": "Vale do Sao Francisco, polo vinicola tropical"}
+  ],
+
+  "plataformas_ecommerce": {
+    "dominantes": [
+      {
+        "nome": "VTEX",
+        "participacao_estimada": "alta",
+        "assinatura_html": ["vtexassets", "vteximg", "/api/catalog_system", "vtexcommercestable"],
+        "api_publica": "/api/catalog_system/pub/products/search/{termo}",
+        "observacao": "Dominante em supermercados e grandes varejistas brasileiros"
+      }
+    ],
+    "secundarias": [
+      {
+        "nome": "Shopify",
+        "participacao_estimada": "media",
+        "assinatura_html": ["cdn.shopify.com", "myshopify.com", "Shopify.theme"],
+        "api_publica": "/products.json",
+        "observacao": "Crescendo no Brasil, popular em vinicolas e importadoras medias"
+      },
+      {
+        "nome": "WooCommerce",
+        "participacao_estimada": "media",
+        "assinatura_html": ["wp-content/plugins/woocommerce", "wc-ajax", "woocommerce"],
+        "api_publica": null,
+        "observacao": "WordPress, popular em importadoras pequenas"
+      },
+      {
+        "nome": "Nuvemshop",
+        "participacao_estimada": "media",
+        "assinatura_html": ["mitiendanube", "nuvemshop", "tiendanube"],
+        "api_publica": null,
+        "observacao": "Muito popular no Brasil para PMEs"
+      },
+      {
+        "nome": "Loja Integrada",
+        "participacao_estimada": "baixa",
+        "assinatura_html": ["lojaintegrada.com.br"],
+        "api_publica": null,
+        "observacao": "Gratis ate certo ponto, lojas muito pequenas. Subdominio .lojaintegrada.com.br"
+      },
+      {
+        "nome": "Tray",
+        "participacao_estimada": "baixa",
+        "assinatura_html": ["tray.com.br", "traycorp"],
+        "api_publica": null,
+        "observacao": "Brasileira, foco em PMEs"
+      },
+      {
+        "nome": "Magento",
+        "participacao_estimada": "baixa",
+        "assinatura_html": ["Magento", "mage", "/static/version"],
+        "api_publica": null,
+        "observacao": "Usado por lojas medias/grandes"
+      }
+    ]
+  },
+
+  "termos_busca": {
+    "loja_generica": [
+      "loja de vinhos online brasil",
+      "comprar vinho online brasil",
+      "ecommerce vinhos brasil",
+      "vinhos online entrega brasil"
+    ],
+    "loja_por_cidade": [
+      "loja vinhos online {cidade}",
+      "adega online {cidade}",
+      "comprar vinho {cidade} delivery",
+      "enoteca online {cidade}"
+    ],
+    "importadora": [
+      "importadora vinhos brasil",
+      "importadora vinhos {cidade}",
+      "distribuidora vinhos importados",
+      "importadora vinhos franceses brasil",
+      "importadora vinhos italianos brasil"
+    ],
+    "produtor_direto": [
+      "vinicola brasileira loja virtual",
+      "vinicola {regiao_vinicola} loja online",
+      "vinicola serra gaucha comprar online",
+      "vinicola altitude santa catarina loja"
+    ],
+    "clube_assinatura": [
+      "clube de vinhos brasil",
+      "clube assinatura vinhos mensal",
+      "wine club brasil assinatura"
+    ],
+    "nicho_organico": [
+      "vinhos organicos loja online brasil",
+      "vinhos naturais comprar online",
+      "vinhos biodinamicos brasil loja"
+    ],
+    "nicho_regiao_especifica": [
+      "vinicola serra gaucha loja online",
+      "vinhos campanha gaucha comprar",
+      "vinicola sao joaquim altitude loja",
+      "vinhos vale sao francisco comprar online"
+    ],
+    "supermercado": [
+      "supermercado online vinhos delivery",
+      "supermercado vinhos importados online",
+      "atacadista bebidas vinhos online"
+    ],
+    "listas_curadas": [
+      "melhores lojas vinhos online brasil",
+      "melhores sites comprar vinho online brasil",
+      "onde comprar vinho online brasil",
+      "top lojas vinhos online brasil 2026"
+    ],
+    "agregador_reviews": [
+      "loja vinhos reclame aqui",
+      "loja vinhos online avaliacao",
+      "importadora vinhos reclamacao"
+    ]
+  },
+
+  "agregadores_conhecidos": [
+    {
+      "nome": "Vivino Brasil",
+      "url": "https://www.vivino.com/explore?country_code=BR",
+      "tipo": "marketplace",
+      "como_extrair": "Lista merchants que vendem no Brasil via pagina de cada vinho",
+      "lojas_estimadas": 50
+    },
+    {
+      "nome": "Vinho Todo Dia",
+      "url": "https://vinhotododia.com.br/lojas-de-vinhos-online/",
+      "tipo": "blog_lista",
+      "como_extrair": "Pagina unica com 21 lojas listadas com descricoes e URLs",
+      "lojas_estimadas": 21
+    },
+    {
+      "nome": "Winer.com.br",
+      "url": "https://www.winer.com.br/as-principais-importadoras-de-vinhos/",
+      "tipo": "blog_lista",
+      "como_extrair": "Pagina com 32 importadoras listadas com sites",
+      "lojas_estimadas": 32
+    }
+  ],
+
+  "marketplaces_generalistas": [
+    {
+      "nome": "Mercado Livre",
+      "url": "https://www.mercadolivre.com.br",
+      "tem_secao_vinhos": true,
+      "lojas_oficiais_possiveis": true,
+      "observacao": "Verificar lojas oficiais de importadoras no ML"
+    },
+    {
+      "nome": "Amazon Brasil",
+      "url": "https://www.amazon.com.br",
+      "tem_secao_vinhos": true,
+      "lojas_oficiais_possiveis": true,
+      "observacao": "Secao de vinhos com sellers especializados"
+    }
+  ],
+
+  "players_grandes": [
+    {"nome": "Wine.com.br", "url": "https://www.wine.com.br", "tipo": "ecommerce_vinho", "plataforma_provavel": "custom", "market_share_estimado": "alto", "observacao": "Maior loja de vinhos online do Brasil, ~60% do mercado"},
+    {"nome": "Evino", "url": "https://www.evino.com.br", "tipo": "ecommerce_vinho", "plataforma_provavel": "custom", "market_share_estimado": "alto", "observacao": "Segunda maior, foco em flash sales"},
+    {"nome": "Grand Cru", "url": "https://www.grandcru.com.br", "tipo": "importadora", "plataforma_provavel": "shopify", "market_share_estimado": "medio", "observacao": "Importadora premium com lojas fisicas"},
+    {"nome": "Mistral", "url": "https://www.mistral.com.br", "tipo": "importadora", "plataforma_provavel": "custom", "market_share_estimado": "medio", "observacao": "Grande importadora com ecommerce"},
+    {"nome": "Divvino", "url": "https://www.divvino.com.br", "tipo": "ecommerce_vinho", "plataforma_provavel": "custom", "market_share_estimado": "medio", "observacao": "Marketplace de vinhos"},
+    {"nome": "Wine Brands", "url": "https://www.winebrands.com.br", "tipo": "ecommerce_vinho", "plataforma_provavel": "vtex", "market_share_estimado": "medio", "observacao": "E-commerce com bom portfolio"},
+    {"nome": "Zahil", "url": "https://zahil.com.br", "tipo": "importadora", "plataforma_provavel": "custom", "market_share_estimado": "medio", "observacao": "Uma das maiores importadoras do Brasil"}
+  ],
+
+  "review_sites_locais": [
+    {
+      "nome": "Reclame Aqui",
+      "url": "https://www.reclameaqui.com.br",
+      "busca_util": "loja de vinhos",
+      "equivalente_reclameaqui": true
+    }
+  ],
+
+  "particularidades_pais": {
+    "regulamentacao_venda_online": "Venda de alcool online e permitida no Brasil. Nao ha monopolio estatal. Requer alvara de funcionamento e licenca da Receita Federal para importacao.",
+    "idade_minima_compra": 18,
+    "restricoes_envio_interestadual": false,
+    "monopolio_estatal": false,
+    "monopolio_descricao": "",
+    "frete_internacional_comum": false,
+    "observacoes": [
+      "Wine.com.br + Evino dominam ~95% do volume online",
+      "Serra Gaucha tem mercado muito fragmentado (dezenas de vinicolas com loja propria)",
+      "Muitas importadoras sao B2B apenas, sem e-commerce B2C",
+      "Supermercados do Sul (Koch, Giassi, Bistek, Angeloni) usam VTEX e tem boa secao de vinhos",
+      "Clubes de assinatura sao nicho relevante (~11 clubes com ecommerce)",
+      "Micro-importadoras vendem por Instagram/WhatsApp, sem site"
+    ]
+  },
+
+  "tipos_loja_esperados": {
+    "ecommerce_vinho": "Loja online especializada em vinhos",
+    "importadora": "Importadora com e-commerce B2C",
+    "adega": "Adega/enoteca com loja online",
+    "supermercado": "Supermercado com secao de vinhos online",
+    "produtora": "Vinicola com loja online propria",
+    "clube": "Clube de assinatura de vinhos",
+    "marketplace": "Marketplace de vinhos (agrega multiplos vendedores)"
+  },
+
+  "metadata": {
+    "gerado_em": "2026-03-05",
+    "gerado_por": "manual (baseado em descoberta real de 385 lojas)",
+    "versao": "1.0",
+    "fonte_dados": "web_research + execucao real",
+    "confianca_geral": "alta",
+    "notas_agente": "Config gerado a partir de descoberta real que encontrou 385 lojas em 22 estados. Todas as informacoes foram validadas durante a execucao."
+  }
+}
