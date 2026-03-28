@@ -328,6 +328,15 @@ Loja sem recipe ou recipe quebrado
 - Nível 3 (ML/Amazon): curl_cffi + proxy residencial
 - NUNCA escalar nível sem necessidade — começar pelo 0
 
+### REGRA 6 — Extração de Preços (winegod_utils)
+1. NUNCA usar USD como moeda default. Usar `utils.currency.get_currency_for_store()` ou fallback `MOEDA_POR_PAIS[pais]`.
+2. SEMPRE validar preço com `utils.price_validator.is_valid_price()` antes de gravar.
+3. SEMPRE filtrar não-vinhos com `utils.wine_filter.is_wine()` antes de gravar.
+4. SEMPRE normalizar nome com `utils.normalize.normalize_wine_name()` antes de gravar.
+5. Para Magento: aplicar `fix_centavos_magento()` no preço.
+6. Rejeitar URLs inválidas com `is_valid_url()`.
+7. Biblioteca compartilhada em `C:\winegod\utils\` — usada por Codex, Admin e Claude.
+
 ## Dados Iniciais
 
 - **Vivino**: 1.7M vinhos (fonte primária — ratings, reviews, metadata)
