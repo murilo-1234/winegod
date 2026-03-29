@@ -34,7 +34,7 @@ def is_valid_price(preco, moeda):
     faixa = FAIXA_PRECO.get(moeda)
     if faixa:
         minimo, maximo = faixa
-        if preco > maximo:
+        if preco < minimo or preco > maximo:
             return False
     return True
 
